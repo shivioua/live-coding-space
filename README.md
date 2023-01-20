@@ -1,0 +1,24 @@
+# Shivioua Live Coding Space
+
+Repo containing snippets and code for my public performances
+
+----
+
+## Sonic Pi Snippets
+
+If You want to use Sonic Pi snippets available in this repository then You need to:
+
+- Clone/download this repository to the $DIR_OF_YOUR_CHOICE
+- Add below snippet inside `$HOME/.sonic-pi/init.rb` file replacing $DIR_OF_YOUR_CHOICE with absolute path:
+
+Linux/Mac OS/Raspberry Pi
+
+    load_snippets('$DIR_OF_YOUR_CHOICE/sonic-pi-snippets')
+
+Windows 
+
+    load_snippets('c:/dir/of/your/choice/sonic-pi-snippets')
+    
+From that point snippets should be loaded automagically when Sonic Pi starts.
+
+---- 
